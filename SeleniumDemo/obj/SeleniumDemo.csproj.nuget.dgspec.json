@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/anuragpatidar/Downloads/SeleniumDemo-master/SeleniumDemo/SeleniumDemo.csproj": {}
+    "/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/SeleniumDemo.csproj": {}
   },
   "projects": {
-    "/Users/anuragpatidar/Downloads/SeleniumDemo-master/SeleniumDemo/SeleniumDemo.csproj": {
+    "/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/SeleniumDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/anuragpatidar/Downloads/SeleniumDemo-master/SeleniumDemo/SeleniumDemo.csproj",
+        "projectUniqueName": "/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/SeleniumDemo.csproj",
         "projectName": "SeleniumDemo",
-        "projectPath": "/Users/anuragpatidar/Downloads/SeleniumDemo-master/SeleniumDemo/SeleniumDemo.csproj",
+        "projectPath": "/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/SeleniumDemo.csproj",
         "packagesPath": "/Users/anuragpatidar/.nuget/packages/",
-        "outputPath": "/Users/anuragpatidar/Downloads/SeleniumDemo-master/SeleniumDemo/obj/",
+        "outputPath": "/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/anuragpatidar/.config/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[87.0.4280.2000, )"
+              "version": "[86.0.4240.2200, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

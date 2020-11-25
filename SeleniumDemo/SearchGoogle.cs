@@ -38,6 +38,8 @@ namespace SeleniumDemo
 
                 // Should see: "Cheese - Google Search" (for an English locale)
                 Assert.AreEqual(driver.Title, "Cheese - Google Search");
+
+                driver.Quit();
             }
 
         }
