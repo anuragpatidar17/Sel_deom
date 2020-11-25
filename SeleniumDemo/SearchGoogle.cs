@@ -25,9 +25,11 @@ namespace SeleniumDemo
 
                 // Find the text input element by its name
                 IWebElement query = driver.FindElement(By.Name("q"));
+                
+                string text = System.IO.File.ReadAllText(@"D:\a\1\s\SeleniumDemo\Test.txt");
 
                 // Enter something to search for
-                query.SendKeys("Shell");
+                query.SendKeys(text);
 
                 // Now submit the form. WebDriver will find the form for us from the element
                 query.Submit();
@@ -35,10 +37,10 @@ namespace SeleniumDemo
                 // Google's search is rendered dynamically with JavaScript.
                 // Wait for the page to load, timeout after 10 seconds
                 var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-                wait.Until(d => d.Title.StartsWith("Shell", StringComparison.OrdinalIgnoreCase));
+                wait.Until(d => d.Title.StartsWith("Anurag", StringComparison.OrdinalIgnoreCase));
 
                 // Should see: "Cheese - Google Search" (for an English locale)
-                Assert.AreEqual(driver.Title, "Shell - Google Search");
+                Assert.AreEqual(driver.Title, "Anurag - Google Search");
 
                 driver.Quit();
             }
