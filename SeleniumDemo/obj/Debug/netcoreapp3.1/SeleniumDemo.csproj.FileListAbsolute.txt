@@ -192,3 +192,11 @@
 /Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/obj/Debug/netcoreapp3.1/SeleniumDemo.dll
 /Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/obj/Debug/netcoreapp3.1/SeleniumDemo.pdb
 /Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/obj/Debug/netcoreapp3.1/SeleniumDemo.genruntimeconfig.cache
+/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/bin/Debug/netcoreapp3.1/NUnit3.TestAdapter.dll
+/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/bin/Debug/netcoreapp3.1/NUnit3.TestAdapter.pdb
+/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/bin/Debug/netcoreapp3.1/nunit.engine.dll
+/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/bin/Debug/netcoreapp3.1/nunit.engine.api.dll
+/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/bin/Debug/netcoreapp3.1/nunit.engine.core.dll
+/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/bin/Debug/netcoreapp3.1/Microsoft.DotNet.InternalAbstractions.dll
+/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/bin/Debug/netcoreapp3.1/nunit.framework.dll
+/Users/anuragpatidar/Desktop/SeleniumDemo_git/SeleniumDemo/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll

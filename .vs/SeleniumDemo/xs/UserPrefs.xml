@@ -1,18 +1,16 @@
 ﻿<Properties StartupConfiguration="{599C2B00-3AFF-4E53-95F3-6A1938825989}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="SeleniumDemo/SearchGoogle.cs">
     <Files>
-      <File FileName="SeleniumDemo/SearchGoogle.cs" Line="48" Column="1" />
+      <File FileName="SeleniumDemo/SearchGoogle.cs" Line="46" Column="1" />
+      <File FileName="SeleniumDemo/TestMethodnewAttribute.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SeleniumDemo" expanded="True">
             <Node name="SeleniumDemo" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True">
-                  <Node name="Selenium.WebDriver.ChromeDriver" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Dependencies" expanded="True" />
+              <Node name="SearchGoogle.cs" selected="True" />
             </Node>
           </Node>
         </State>
