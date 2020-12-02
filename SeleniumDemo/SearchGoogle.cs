@@ -45,7 +45,7 @@ namespace SeleniumDemo
                 // Now submit the form. WebDriver will find the form for us from the element
                 query.Submit();
                 
-                console.WriteLine(driver.Title);
+                Console.WriteLine(driver.Title);
 
                 // Google's search is rendered dynamically with JavaScript.
                 // Wait for the page to load, timeout after 10 seconds
