@@ -40,12 +40,12 @@ namespace SeleniumDemo
 
 
                 // Enter something to search for
-                query.SendKeys(text);
+                
 
                 // Now submit the form. WebDriver will find the form for us from the element
-                query.Submit();
+              
                 
-                Console.WriteLine(driver.Title);
+                Console.WriteLine("anurag");
 
                 // Google's search is rendered dynamically with JavaScript.
                 // Wait for the page to load, timeout after 10 seconds
