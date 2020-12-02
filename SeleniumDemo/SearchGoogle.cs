@@ -35,7 +35,7 @@ namespace SeleniumDemo
                        "a class defines the data and behavior of the data type. ";
 
 
-                System.IO.File.WriteAllText(@"D:\b\1\s\SeleniumDemo\bin\Debug\netcoreapp3.1\Test.txt", text);
+                System.IO.File.WriteAllText(@"D:\a\1\s\SeleniumDemo\bin\Debug\netcoreapp3.1\Test.txt", text);
                 
 
 
