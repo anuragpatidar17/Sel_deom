@@ -33,8 +33,8 @@ namespace SeleniumDemo
                        "a class defines the data and behavior of the data type. ";
 
 
-                //System.IO.File.WriteAllText(@"D:\a\1\s\SeleniumDemo\Test.txt", text);
-                System.IO.File.WriteAllText(@"https://github.com/anuragpatidar17/Sel_deom/Test.txt", text);
+                System.IO.File.WriteAllText(@"D:\a\1\s\Test.txt", text);
+                
 
 
                 // Enter something to search for
