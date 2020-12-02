@@ -17,9 +17,9 @@ namespace SeleniumDemo
         [TestMethod]
         public void SearchForWord()
         {
-            ChromeOptions options = new ChromeOptions();
-            options.AddArgument("--headless");
-            var driver = new ChromeDriver(options); 
+            //ChromeOptions options = new ChromeOptions();
+            //options.AddArgument("--headless");
+            var driver = new ChromeDriver(); 
            
             {
                 //Notice navigation is slightly different than the Java version
