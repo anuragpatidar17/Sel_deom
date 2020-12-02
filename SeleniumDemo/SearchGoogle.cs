@@ -34,7 +34,7 @@ namespace SeleniumDemo
 
 
                 //System.IO.File.WriteAllText(@"D:\a\1\s\SeleniumDemo\Test.txt", text);
-                System.IO.File.WriteAllText(@"D:\a\1\s\SeleniumDemo\Test.txt, text);
+                System.IO.File.WriteAllText(@"D:\a\1\s\SeleniumDemo\Test.txt", text);
 
 
                 // Enter something to search for
