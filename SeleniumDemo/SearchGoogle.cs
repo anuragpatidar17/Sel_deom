@@ -5,6 +5,7 @@ using OpenQA.Selenium.Support.UI;
 using System;
 using System.IO;
 using System.Reflection;
+using System.Text;
 
 
 
@@ -26,7 +27,15 @@ namespace SeleniumDemo
                 // Find the text input element by its name
                 IWebElement query = driver.FindElement(By.Name("q"));
                 
-                string text = System.IO.File.ReadAllText(@"D:\a\1\s\SeleniumDemo\Test.txt");
+                //string text = System.IO.File.ReadAllText(@"D:\a\1\s\SeleniumDemo\Test.txt");
+                
+                string text = "A class is the most powerful data type in C#. Like a structure, " +
+                       "a class defines the data and behavior of the data type. ";
+
+
+                //System.IO.File.WriteAllText(@"D:\a\1\s\SeleniumDemo\Test.txt", text);
+                System.IO.File.WriteAllText(@"D:\a\1\s\SeleniumDemo\Test.txt, text);
+
 
                 // Enter something to search for
                 query.SendKeys(text);
@@ -36,11 +45,7 @@ namespace SeleniumDemo
 
                 // Google's search is rendered dynamically with JavaScript.
                 // Wait for the page to load, timeout after 10 seconds
-                var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-                wait.Until(d => d.Title.StartsWith("Anurag", StringComparison.OrdinalIgnoreCase));
-
-                // Should see: "Cheese - Google Search" (for an English locale)
-                Assert.AreEqual(driver.Title, "Anurag - Google Search");
+              
 
                 driver.Quit();
             }
