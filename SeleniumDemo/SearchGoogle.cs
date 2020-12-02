@@ -29,7 +29,11 @@ namespace SeleniumDemo
                 // Find the text input element by its name
                 IWebElement query = driver.FindElement(By.Name("q"));
                 
-                string text = System.IO.File.ReadAllText(@"D:\a\1\s\SeleniumDemo\Test.txt");
+                query.SendKeys("patidar bhai");
+                
+                string check_value = query.GetAttribute("value");
+                
+                //string text = System.IO.File.ReadAllText(@"D:\a\1\s\SeleniumDemo\Test.txt");
                 
                
 
@@ -38,7 +42,7 @@ namespace SeleniumDemo
                 
 
                 
-                Console.WriteLine(text);
+                Console.WriteLine(check_value);
 
                 // Google's search is rendered dynamically with JavaScript.
                 // Wait for the page to load, timeout after 10 seconds
