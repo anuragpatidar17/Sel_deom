@@ -29,23 +29,22 @@ namespace SeleniumDemo
                 // Find the text input element by its name
                 IWebElement query = driver.FindElement(By.Name("q"));
                 
-                //string text = System.IO.File.ReadAllText(@"D:\a\1\s\SeleniumDemo\Test.txt");
+                string text = System.IO.File.ReadAllText(@"D:\a\1\s\SeleniumDemo\Test.txt");
                 
-                string text = "A class is the most powerful data type in C#. Like a structure, " +
-                       "a class defines the data and behavior of the data type. ";
+               
 
 
-                System.IO.File.WriteAllText(@"D:\a\1\s\SeleniumDemo\bin\Debug\netcoreapp3.1\Test.txt", text);
+                
                 
 
-
+                  query.SendKeys(text);
                 // Enter something to search for
                 
 
                 // Now submit the form. WebDriver will find the form for us from the element
-              
+                 query.Submit();
                 
-                Console.WriteLine(driver.Title);
+                Console.WriteLine(text);
 
                 // Google's search is rendered dynamically with JavaScript.
                 // Wait for the page to load, timeout after 10 seconds
