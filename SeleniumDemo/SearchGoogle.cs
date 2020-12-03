@@ -6,6 +6,10 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Text;
+using NPOI.SS.UserModel;
+using System.Threading;
+using NPOI.Util;
+using NPOI.XSSF.UserModel;
 
 
 
@@ -22,6 +26,11 @@ namespace SeleniumDemo
             var driver = new ChromeDriver(); 
            
             {
+                FileStream file = new FileStream("D:\a\1\s\SeleniumDemo\Book1.xlsx", FileMode.Open, FileAccess.Read);
+                XSSFWorkbook workbook = new XSSFWorkbook(file);
+                ISheet sheet = workbook.GetSheet("Sheet1");
+
+                var value = string.Format(sheet.GetRow(0).GetCell(0).StringCellValue)
                 //Notice navigation is slightly different than the Java version
                 //This is because 'get' is a keyword in C#
                 driver.Navigate().GoToUrl("http://www.google.com/");
@@ -29,11 +38,12 @@ namespace SeleniumDemo
                 // Find the text input element by its name
                 IWebElement query = driver.FindElement(By.Name("q"));
                 
-                query.SendKeys("patidar bhai");
+                query.SendKeys(value);
                 
                 string check_value = query.GetAttribute("value");
                 
                 //string text = System.IO.File.ReadAllText(@"D:\a\1\s\SeleniumDemo\Test.txt");
+                
                 
                
 
