@@ -26,11 +26,11 @@ namespace SeleniumDemo
             var driver = new ChromeDriver(); 
            
             {
-                FileStream file = new FileStream("D:\a\1\s\SeleniumDemo\Book1.xlsx", FileMode.Open, FileAccess.Read);
+                FileStream file = new FileStream(@"D:\a\1\s\SeleniumDemo\Book1.xlsx", FileMode.Open, FileAccess.Read);
                 XSSFWorkbook workbook = new XSSFWorkbook(file);
                 ISheet sheet = workbook.GetSheet("Sheet1");
 
-                var value = string.Format(sheet.GetRow(0).GetCell(0).StringCellValue)
+                var value = string.Format(sheet.GetRow(0).GetCell(0).StringCellValue);
                 //Notice navigation is slightly different than the Java version
                 //This is because 'get' is a keyword in C#
                 driver.Navigate().GoToUrl("http://www.google.com/");
